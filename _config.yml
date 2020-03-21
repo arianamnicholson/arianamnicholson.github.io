@@ -1,4 +1,5 @@
 name: Ari Nicholson
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme: jekyll-theme-merlot
+description: My site!
+theme: jekyll-theme-tactile
