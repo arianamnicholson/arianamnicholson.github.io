@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#00ff00",
+        "marker-size": "medium",
+        "marker-symbol": "rail-above",
+        "name": "Price Chopper Train Lookout",
+        "Description": "Where we watched for the train."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.82893514633179,
+          42.2424343809344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#00ff00",
+        "marker-size": "medium",
+        "marker-symbol": "rail-above",
+        "name": "Lookout for Train Junction Stop",
+        "Description": "Where the train stopped all day before continuing to the new track."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.79395914077759,
+          42.32403179535469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "square-stroked",
+        "name": "First Train Flagger Postion",
+        "Description": "First position we alerted train to people on tracks."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.77172899246216,
+          42.333581621632234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "square-stroked",
+        "name": "Second Train Flagger Postion",
+        "Description": "Second position we alerted train to people on tracks."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.77020549774169,
+          42.34173431258761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "roadblock",
+        "name": "West Boylston Train Blockade",
+        "Description": "Where we blockaded!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.77484035491943,
+          42.35749741295654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "name": "Train"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.77410006523132,
+            42.35663324076654
+          ],
+          [
+            -71.77263021469116,
+            42.35485728997052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ff0000",
+        "fill-opacity": 0.5,
+        "name": "Parking Lot in Front of Candy Shop"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.77917212247849,
+              42.35901166767857
+            ],
+            [
+              -71.77967101335526,
+              42.35885112669516
+            ],
+            [
+              -71.77950471639633,
+              42.358656891376775
+            ],
+            [
+              -71.77908629179001,
+              42.358831306792204
+            ],
+            [
+              -71.77917212247849,
+              42.35901166767857
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
