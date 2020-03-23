@@ -7,8 +7,8 @@
         "marker-color": "#00ff00",
         "marker-size": "medium",
         "marker-symbol": "rail-above",
-        "name": "Price Chopper Train Lookout",
-        "Description": "Where we watched for the train."
+        "name": "Price Chopper Puppy Lookout",
+        "Description": "Where we watched for the Puppy."
       },
       "geometry": {
         "type": "Point",
@@ -24,8 +24,8 @@
         "marker-color": "#00ff00",
         "marker-size": "medium",
         "marker-symbol": "rail-above",
-        "name": "Lookout for Train Junction Stop",
-        "Description": "Where the train stopped all day before continuing to the new track."
+        "name": "Lookout for Puppy Junction Stop",
+        "Description": "Where the Puppy stopped all day before continuing to the new track."
       },
       "geometry": {
         "type": "Point",
@@ -41,8 +41,8 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "square-stroked",
-        "name": "First Train Flagger Postion",
-        "Description": "First position we alerted train to people on tracks."
+        "name": "First Puppy Flagger Postion",
+        "Description": "First position we alerted Puppy to people on tracks."
       },
       "geometry": {
         "type": "Point",
@@ -58,8 +58,8 @@
         "marker-color": "#ff0000",
         "marker-size": "medium",
         "marker-symbol": "square-stroked",
-        "name": "Second Train Flagger Postion",
-        "Description": "Second position we alerted train to people on tracks."
+        "name": "Second Puppy Flagger Postion",
+        "Description": "Second position we alerted Puppy to people on tracks."
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +75,7 @@
         "marker-color": "#ff0000",
         "marker-size": "medium",
         "marker-symbol": "roadblock",
-        "name": "West Boylston Train Blockade",
+        "name": "West Boylston Puppy Blockade",
         "Description": "Where we blockaded!"
       },
       "geometry": {
