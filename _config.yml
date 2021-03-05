@@ -1,5 +1,0 @@
-name: Ari Nicholson
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-description: My site!
-theme: jekyll-theme-tactile
