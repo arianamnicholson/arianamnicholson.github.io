@@ -59,15 +59,15 @@
 </p>
 									<p>In addition to reviewing many articles about how to implement arcade, I completed a few tutorials. The first utilized a Living Atlas layer of world Ocean Temperatures (to monitor coral bleaching). This layer is continuously updated in Celsius. The task was to write an Arcade script to convert each temperature to Fahrenheit, which would then populate the legend and pop-ups with Fahrenheit values. A small bit of code placed in a new attribute box under symbology achieves this: $feature.sst * 1.8 + 32. </p>
 
-									<img src="images/journal_1/fig_1.png" alt="Figure 1" class="center">
+									<img src="images/journal_1/fig_1.PNG" alt="Figure 1" class="center">
 	<br>
 									<p>I also completed a tutorial regarding the percentage of homeowners/renters without a vehicle in Houston, Texas. To create a percentage, I divided the number of homeowners/renters without a vehicle by the total number of homeowners/renters, then multiplied by 100. The code was: round(($feature["OwnerRenterHH_NoVehicle"]/$feature["OwnerRenter_HHs"]) *100,2).</p>
 
-									<img src="images/journal_1/fig_2.png" alt="Figure 2" class="center">
+									<img src="images/journal_1/fig_2.PNG" alt="Figure 2" class="center">
 <br>
 									<p>I wanted to try out some Arcade in a map I am developing for my internship with Uprooted & Rising concerning universities and food justice. The map I am developing has pop-ups that show several attributes about food contracts and funding sources for every school in the US. Some of the attributes are in all upper case, so I used some simple code to make the pop-up descriptions in proper case rather than upper - Proper($feature.NAME).</p>
 
-									<img src="images/journal_1/fig_3.png" alt="Figure 3" class="center">
+									<img src="images/journal_1/fig_3.PNG" alt="Figure 3" class="center">
 <br>
 									<p>I also was interested in how a spatial calculation like Intersects could benefit my map. I wanted to make an unwieldy and confusing layer of Native Lands show up in a more digestible format - in each university pop-up, describing what native lands each university is located on. I looked at a few tutorials, and ultimately used this post called Overlapping Features in Pop-Ups Quick Introduction to Using FeatureSets with Arcade linked from this stack exchange post to start my code. I reformatted it to say:</p>
 									<pre>
@@ -102,7 +102,7 @@
 
 	</code>
 </pre>
-								<img src="images/journal_1/fig_4.png" alt="Figure 4" class="center">
+								<img src="images/journal_1/fig_4.PNG" alt="Figure 4" class="center">
 								<br>
 									<p>Finally, I briefly reviewed the content on the REST API. I was interested in reviewing it on the syllabus in hopes that it would help me pull in layers from additional sources besides AGOL, but in reality its use is to share sources from ArcGIS Online. Using and hosting an API is beyond my current coding abilities, but it was interesting to learn that there are ways to have other users request your data in real-time for other applications.</p>
 									<p>In conclusion, reviewing ArcGIS online Arcade gave me many ideas to pursue in my internship. In previous classes I learned to configure pop-ups, but I had no idea the degree of creative potential that is possible using Arcade and markup languages like HTML. I am excited to use Arcade to further develop pop-ups for my internship project - such as writing narrative to explain each attribute in the pop-up, and using Arcade to have it populate within the sentence. I would like to explore having these attributes show only when it’s value isn’t null, and add tables within the pop-up. This exploration allowed me to see the potential to create more professional, beautiful maps within ArcGIS Online.
