@@ -65,11 +65,11 @@
 
 									<img src="images/journal_1/fig_2.PNG" alt="Figure 2" class="center">
 <br>
-									<p>I wanted to try out some Arcade in a map I am developing for my internship with Uprooted & Rising concerning universities and food justice. The map I am developing has pop-ups that show several attributes about food contracts and funding sources for every school in the US. Some of the attributes are in all upper case, so I used some simple code to make the pop-up descriptions in proper case rather than upper - Proper($feature.NAME).</p>
+									<p>I wanted to try out some Arcade in a <a href="https://realfood.maps.arcgis.com/apps/webappviewer/index.html?id=c016d34a558f4cb1935a3f3f90d134e8">map I am developing for my internship with Uprooted & Rising concerning universities and food justice.</a> The map I am developing has pop-ups that show several attributes about food contracts and funding sources for every school in the US. Some of the attributes are in all upper case, so I used some simple code to make the pop-up descriptions in proper case rather than upper - Proper($feature.NAME).</p>
 
 									<img src="images/journal_1/fig_3.PNG" alt="Figure 3" class="center">
 <br>
-									<p>I also was interested in how a spatial calculation like Intersects could benefit my map. I wanted to make an unwieldy and confusing layer of Native Lands show up in a more digestible format - in each university pop-up, describing what native lands each university is located on. I looked at a few tutorials, and ultimately used this post called Overlapping Features in Pop-Ups Quick Introduction to Using FeatureSets with Arcade linked from this stack exchange post to start my code. I reformatted it to say:</p>
+									<p>I also was interested in how a spatial calculation like Intersects could benefit my map. I wanted to make an unwieldy and confusing layer of <a href="https://native-land.ca/">Native Lands</a> show up in a more digestible format - in each university pop-up, describing what native lands each university is located on. I looked at a few tutorials, and ultimately used this post called <a href="https://community.esri.com/t5/arcgis-online-blog/overlapping-features-in-pop-ups-quick-introduction-to-using/ba-p/890862">Overlapping Features in Pop-Ups Quick Introduction to Using FeatureSets with Arcade</a> linked from <a href="https://gis.stackexchange.com/questions/328521/arcade-expression-to-intersect-features-and-add-attribute-to-popup">this stack exchange post</a> to start my code. I reformatted it to say:</p>
 									<pre>
   <code>
 		var intersectLayer =Intersects(FeatureSetByName($map,"Native Lands"), $feature)
