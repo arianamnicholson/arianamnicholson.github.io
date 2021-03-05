@@ -1,1 +1,0 @@
-# arianamnicholson.github.io
