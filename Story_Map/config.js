@@ -48,7 +48,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Fires burning in and around Harvard University Ipe farm in Piauí, Brazil from July-September',
-            image: '/images/storymap/map4b.JPEG',
+            image: '/images/storymap/map4b.jpeg',
             description: 'Thanks to recently accessed court documents, we now know that Harvard University&#39s endowment owns over 1 million acres of farmland in Brazil, all of it in the Cerrado region. These maps zoom in on several farms owned by TIAA and Harvard in the Cerrado. They indicate that fires are burning on the edges and within TIAA and Harvard&#39s farms and that some of these fires have already burnt portions of forested areas within their properties, which Brazilian law requires farm owners to maintain. <p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
             location: {
               center: { lon: -45.35521, lat: -8.41810 },
@@ -81,7 +81,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: ' Fires burning in and around Harvard University São Pedro farm in Piauí, Brazil from July-September 2019',
-            image: '/images/storymap/map3b.JPEG',
+            image: '/images/storymap/map3b.jpeg',
             description: 'TIAA, Harvard and the other institutions buying up farmland in Brazil and elsewhere around the world must stop pretending that their practices are sustainable. They are fuelling the expansion of a model of industrial agriculture, based on mono-cropping and chemical inputs, that has toxic impacts on rural communities and that, as the Inter-governmental Panel and Climate Change has made abundantly clear, is a major driver of the climate crisis. We simply cannot resolve the climate crisis if such companies continue to pour money into agribusiness in Brazil, the southeast US and elsewhere.<p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
             location: {
               center: { lon: -43.70880, lat: -6.87028 },
@@ -111,7 +111,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Fires burning in and around TIAA Santana farm in Maranhão, Brazil from July-September 2019',
-            image: '/images/storymap/map5b.JPEG',
+            image: '/images/storymap/map5b.jpeg',
             description: 'The New York-based TIAA, which, through its subsidiary Nuveen, also manages farmland acquisitions for other pension funds in the US, Canada and Europe, owns 837,000 acres of farmland in Brazil. Within the Cerrado region, it owns 25 farms covering a total of 288,000 acres.Organisations in Brazil, the US, Canada and European countries with pension funds involved in TIAA farmland deals have made numerous efforts to alert these two institutions and their clients that their farmland acquisitions in Brazil are fuelling land grabs, human rights violations and environmental destruction. Recent reports have even exposed their connection with deforestation and displacement of rural communities in the Cerrado. But Harvard and TIAA have consistently denied any connections between their farmland purchases and such concerns.<p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
             location: {
               center: { lon: -46.68956, lat: -8.35171 },
@@ -144,7 +144,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Fires burning in and around TIAA Grão de Ouro farm in Bahia, Brazil from July-September 2019',
-            image: '/images/storymap/map6b.JPEG',
+            image: '/images/storymap/map6b.jpeg',
             description: 'This map of TIAA Grão de Ouro farm in Bahia shows how fire has burnt all of the remaining forest on the farm, right up to the property lines, which would seem to indicate a deliberate, controlled fire. In these maps, the connection between Harvard and TIAA farmland purchases and the ecological destruction playing out in Brazil&#39s Cerrado is undeniable. Last year, in response to civil society pressure, TIAA instituted a No Deforestation policy for certain of its landholdings in the Cerrado; a year later, its landholdings are on fire – a clear demonstration that nothing in TIAA’s policy or its approach to land stewardship considers either the ecological or economic trends driving the continuing deforestation of the Cerrado – trends that TIAA itself is responsible for advancing.<p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
             location: {
               center: { lon: -46.24950, lat: -13.51719 },
