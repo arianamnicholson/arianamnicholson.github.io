@@ -7,7 +7,7 @@ var config = {
     use3dTerrain: false,
     title: 'Harvard and TIAA Farmland Grab in Brazil Goes up in Smoke',
     subtitle: 'How Universities Fund Injustice Abroad',
-    byline: 'Adapted from Friends of the Earth US, GRAIN, National Family Farm Coalition, Rede Social de Justiça e Direitos Humanos, and AidEnvironment',
+    byline: 'Adapted from Friends of the Earth US, GRAIN, National Family Farm Coalition, Rede Social de Justiça e Direitos Humanos, and AidEnvironment - Mapped by Ari',
     footer: 'Source: source citations, etc.',
     chapters: [
         {
@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Display Title',
             image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: 'Brazil is smouldering, still. The surge of fires that raged across the Amazon in July and August has now spread to the country&#39s biodiverse savanna lands in the Cerrado, where the number of fires in September was double what it was a year ago. There&#39s no question that most of these fires are the result of human actions to clear lands for the expansion of large-scale soybean, cattle and corn agribusiness operations, with many multinational agribusiness firms and their financiers implicated in the destruction. Now, we have evidence that the Cerrado fires are also linked to other US-based financial interests: the Harvard University Endowment and TIAA, the private pension fund that invests on behalf of millions of teachers, academics, nurses and government workers nationwide.',
             location: {
               center: { lon: -46.31454, lat: -9.16379 },
               zoom: 6.14,
