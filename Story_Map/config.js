@@ -8,7 +8,7 @@ var config = {
     title: 'Harvard and TIAA Farmland Grab in Brazil Goes up in Smoke',
     subtitle: 'How Universities Fund Injustice Abroad',
     byline: 'Adapted from Friends of the Earth US, GRAIN, National Family Farm Coalition, Rede Social de Justiça e Direitos Humanos, and AidEnvironment - Mapped by Ari',
-    footer: 'Source: source citations, etc.',
+    footer: 'Data and words from AidEnvironment and GRAIN <a href="https://grain.org/en/article/6339-harvard-and-tiaa-s-farmland-grab-in-brazil-goes-up-in-smoke">here</a>. Storytelling tutorial based off of jbranigan on GitHub <a href="https://github.com/mapbox/storytelling">here</a>.',
     chapters: [
         {
             id: 'chapter_1',
@@ -112,7 +112,7 @@ var config = {
             hidden: false,
             title: 'Fires burning in and around TIAA Santana farm in Maranhão, Brazil from July-September 2019',
             image: '/images/storymap/map5b.JPEG',
-            description: '<p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
+            description: 'The New York-based TIAA, which, through its subsidiary Nuveen, also manages farmland acquisitions for other pension funds in the US, Canada and Europe, owns 837,000 acres of farmland in Brazil. Within the Cerrado region, it owns 25 farms covering a total of 288,000 acres.Organisations in Brazil, the US, Canada and European countries with pension funds involved in TIAA farmland deals have made numerous efforts to alert these two institutions and their clients that their farmland acquisitions in Brazil are fuelling land grabs, human rights violations and environmental destruction. Recent reports have even exposed their connection with deforestation and displacement of rural communities in the Cerrado. But Harvard and TIAA have consistently denied any connections between their farmland purchases and such concerns.<p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
             location: {
               center: { lon: -46.68956, lat: -8.35171 },
               zoom: 11.41,
@@ -143,9 +143,9 @@ var config = {
             id: 'chapter_5',
             alignment: 'left',
             hidden: false,
-            title: 'Display Title',
+            title: 'Fires burning in and around TIAA Grão de Ouro farm in Bahia, Brazil from July-September 2019',
             image: '/images/storymap/map6b.JPEG',
-            description: '<p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
+            description: 'This map of TIAA Grão de Ouro farm in Bahia shows how fire has burnt all of the remaining forest on the farm, right up to the property lines, which would seem to indicate a deliberate, controlled fire. In these maps, the connection between Harvard and TIAA farmland purchases and the ecological destruction playing out in Brazil&#39s Cerrado is undeniable. Last year, in response to civil society pressure, TIAA instituted a No Deforestation policy for certain of its landholdings in the Cerrado; a year later, its landholdings are on fire – a clear demonstration that nothing in TIAA’s policy or its approach to land stewardship considers either the ecological or economic trends driving the continuing deforestation of the Cerrado – trends that TIAA itself is responsible for advancing.<p>Source: Aidenvironment, based on NASA VIIRS alerts and modified Copernicus Sentinel data 2019</p>',
             location: {
               center: { lon: -46.24950, lat: -13.51719 },
               zoom: 11.31,
@@ -169,24 +169,6 @@ var config = {
                 // }
             ]
         },
-        {
-            id: 'other-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        }
+
     ]
 };
